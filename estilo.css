@@ -1,0 +1,97 @@
+*{
+	font-size: 20px;
+}
+.contenedor-principal{
+	  width: 95%;
+	  height: 400px;
+	  background-size: cover;
+	  background-color:#FDF5E; 
+	  display: block;
+	  padding-top:1%;
+}
+.contenedor-secundario{
+	 display: inline-flex;
+	 width: 100%;
+	 background-color: red;
+	 background-size: cover;
+	 background-image: url(fondo8.jpg);
+	 height: 400px;
+	 position: ;
+	 justify-content: center;
+	 align-items: center;
+	 z-index: 9;
+	 overflow: hidden;
+}
+.img{
+	height: 50%;
+	 width: 100%;
+	 transition:0.9s; 
+	 position: relative;
+	 z-index: 10;
+
+}
+.img:hover{
+	width: 100%;
+}
+.p-0{
+	color: tomato;
+}
+.p-1{
+	width: 40%;
+	color:white;
+}
+.p-2{
+    
+	width: 100%;
+	height: 60%;
+	color: grey;
+}
+.p-2:hover{
+	  background-color: grey;
+	  color: white;
+}
+.p-3{
+	 color: tomato;
+}
+.caja-0{
+	transition: 0.9s;
+	color: grey;
+	width: 100%;
+}
+.caja1{
+	transition: 0.9s;
+	color: grey;
+	width: 100%;
+	height: 60%; 
+	display: inline-block;
+	border-radius: 2%;
+}
+.caja-0:hover{
+	background-color: grey;
+	color: white;
+
+}
+
+.caja1:hover{
+	height: 70%;
+	background-color: grey;
+	color: white;
+
+}
+.formulario{
+	opacity: 0.7;
+	padding: 5%;
+	height: 40%;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5%;
+	width: 60%;
+	transition: 0.9s;
+	background-color: white;
+}
+.formulario:hover{
+	width: 100%;
+}
+input{
+	width: 100%;
+}
